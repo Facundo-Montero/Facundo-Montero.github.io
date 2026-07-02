@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facundo Montero — Desarrollador Web · QA Analyst</title>
+<meta name="description" content="Portfolio de Facundo Montero. Desarrollo web y testing de calidad (QA) para negocios locales.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">FM<span>.</span></a>
+    <nav class="nav__links">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#qa">QA</a>
+      <a href="#sobre-mi">Sobre mí</a>
+    </nav>
+    <a href="#contacto" class="nav__cta">Contacto</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="hero__eyebrow">Desarrollo web · Testing de calidad</p>
+    <h1 class="hero__title">
+      Construyo sitios<br>
+      y me aseguro <em>de que funcionen.</em>
+    </h1>
+    <p class="hero__lead">
+      Facundo Montero — desarrollador freelance en transición a QA Analyst.
+      Diseño, construyo y testeo sitios web para negocios reales en Argentina.
+    </p>
+    <div class="hero__actions">
+      <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+      <a href="https://github.com/Facundo-Montero" target="_blank" rel="noopener" class="btn btn--ghost">GitHub ↗</a>
+    </div>
+  </section>
+
+  <!-- PROYECTOS ACTIVOS -->
+  <section id="proyectos" class="section">
+    <h2 class="section__title"><span class="section__num">01</span> Sitios activos</h2>
+    <p class="section__lead">Clientes reales, en producción.</p>
+
+    <div class="projects">
+
+      <article class="project">
+        <div class="project__info">
+          <h3>Sushi Katsu</h3>
+          <p class="project__tag">Restaurante · Don Torcuato / San Miguel</p>
+          <p class="project__desc">
+            Cocina japonesa con delivery en dos locales. Menú online con carrito,
+            selección de modalidad obligatoria antes del pago, reservas por WhatsApp
+            y video hero optimizado con Cloudinary.
+          </p>
+          <div class="project__stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Cloudinary</span>
+          </div>
+          <div class="project__links">
+            <a href="https://sushikatsu.com.ar" target="_blank" rel="noopener">Ver sitio ↗</a>
+            <a href="#qa">Ver testing ↓</a>
+          </div>
+        </div>
+        <img class="project__visual" loading="lazy" width="800" height="600"
+             src="img/sushikatsu.webp"
+             alt="Captura del sitio de Sushi Katsu">
+      </article>
+
+      <article class="project project--reverse">
+        <div class="project__info">
+          <h3>Tomasa Resto</h3>
+          <p class="project__tag">Restaurante · Buenos Aires</p>
+          <p class="project__desc">
+            Pastas, pizzas y carnes. Sistema de menú digital con categorías
+            (almuerzo, vinos, postres), reservas por WhatsApp con horarios
+            segmentados por turno y mantenimiento de lista de precios en PDF.
+          </p>
+          <div class="project__stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PDF automation</span>
+          </div>
+          <div class="project__links">
+            <a href="https://tomasaresto.com" target="_blank" rel="noopener">Ver sitio ↗</a>
+          </div>
+        </div>
+        <img class="project__visual" loading="lazy" width="800" height="600"
+             src="img/tomasaresto.webp"
+             alt="Captura del sitio de Tomasa Resto">
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PROYECTOS DE PORTFOLIO -->
+  <section id="portfolio-sitios" class="section">
+    <h2 class="section__title"><span class="section__num">02</span> Sitios de portfolio</h2>
+    <p class="section__lead">Demos de rubro construidas para prospectar clientes nuevos.</p>
+
+    <div class="grid-cards">
+
+      <article class="card">
+        <img loading="lazy" width="800" height="500" src="img/gres.webp" alt="Captura del sitio GRES">
+        <div class="card__body">
+          <h4>GRES</h4>
+          <p>Cerámicos y porcelanatos · landing dark con acentos terracota</p>
+          <a href="https://khaki-mule-210761.hostingersite.com" target="_blank" rel="noopener">Ver sitio ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img loading="lazy" width="800" height="500" src="img/brillasol.webp" alt="Captura del sitio Brilla Sol">
+        <div class="card__body">
+          <h4>Brilla Sol</h4>
+          <p>Distribuidora de productos de limpieza · General Alvear, Mendoza</p>
+          <a href="https://goldenrod-dotterel-570572.hostingersite.com" target="_blank" rel="noopener">Ver sitio ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img loading="lazy" width="800" height="500" src="img/labestiaburger.webp" alt="Captura del sitio La Bestia Burger">
+        <div class="card__body">
+          <h4>La Bestia Burger</h4>
+          <p>Hamburguesería smashed · carta con precios y delivery</p>
+          <a href="https://labestiaburger.online" target="_blank" rel="noopener">Ver sitio ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img loading="lazy" width="800" height="500" src="img/sakurasushi.webp" alt="Captura del sitio Sakura Sushi">
+        <div class="card__body">
+          <h4>Sakura</h4>
+          <p>Sushi & Omakase · menú por categorías, reservas y testimonios</p>
+          <a href="https://sakurasushi.space" target="_blank" rel="noopener">Ver sitio ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img loading="lazy" width="800" height="500" src="img/lanonna.webp" alt="Captura del sitio La Nonna">
+        <div class="card__body">
+          <h4>La Nonna</h4>
+          <p>Ristorante italiano · menú, galería y sistema de reservas</p>
+          <a href="https://lanonna.online" target="_blank" rel="noopener">Ver sitio ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img loading="lazy" width="800" height="500" src="img/montero-fragrance.webp" alt="Captura del sitio Montero Fragrance">
+        <div class="card__body">
+          <h4>Montero Fragrance</h4>
+          <p>Proyecto familiar · fragancias finas y aromatizantes</p>
+          <a href="https://mediumorchid-tiger-749266.hostingersite.com" target="_blank" rel="noopener">Ver sitio ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img loading="lazy" width="800" height="500"
+             src="img/dongaucho.webp"
+             alt="Captura del sitio Don Gaucho">
+        <div class="card__body">
+          <h4>Don Gaucho</h4>
+          <p>Parrilla tradicional porteña · carta, galería y reservas</p>
+          <a href="https://dongaucho.online" target="_blank" rel="noopener">Ver sitio ↗</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- QA -->
+  <section id="qa" class="section section--qa">
+    <h2 class="section__title"><span class="section__num">03</span> Enfoque QA</h2>
+    <p class="section__lead">
+      Cada sitio que entrego pasa por un proceso de testing manual antes de salir a producción.
+      Este es un ejemplo real aplicado a Sushi Katsu.
+    </p>
+
+    <div class="qa-grid">
+      <div class="qa-card">
+        <h3>Test Plan</h3>
+        <div class="qa-table-wrap">
+        <table class="qa-table">
+          <thead>
+            <tr><th>Caso</th><th>Pasos</th><th>Resultado esperado</th><th>Estado</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Checkout sin modalidad</td>
+              <td>Agregar producto → ir a pagar sin elegir delivery/salón</td>
+              <td>Botón de pago bloqueado</td>
+              <td><span class="status status--pass">PASS</span></td>
+            </tr>
+            <tr>
+              <td>Responsive menú</td>
+              <td>Cargar menu.html en viewport 375px</td>
+              <td>Tabs no se solapan, scroll horizontal funcional</td>
+              <td><span class="status status--pass">PASS</span></td>
+            </tr>
+            <tr>
+              <td>Video hero en 3G</td>
+              <td>Simular red lenta (Chrome DevTools)</td>
+              <td>Fallback a imagen si el video no carga en 3s</td>
+              <td><span class="status status--fail">FAIL</span></td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+
+      <div class="qa-card">
+        <h3>Bug Report</h3>
+        <dl class="bug-report">
+          <dt>ID</dt><dd>BUG-014</dd>
+          <dt>Severidad</dt><dd><span class="status status--fail">Media</span></dd>
+          <dt>Módulo</dt><dd>Hero / index.html</dd>
+          <dt>Pasos para reproducir</dt>
+          <dd>1. Abrir sitio con throttling "Slow 3G"<br>2. Esperar carga del hero<br>3. Observar 4s+ de pantalla en blanco</dd>
+          <dt>Resultado actual</dt><dd>El video no muestra poster mientras carga</dd>
+          <dt>Resultado esperado</dt><dd>Debe mostrarse imagen poster inmediata</dd>
+        </dl>
+      </div>
+    </div>
+
+    <p class="qa-note">
+      Ver checklist completo y casos de prueba en el repositorio →
+      <a href="https://github.com/Facundo-Montero/sushi-katsu/tree/main/testing" target="_blank" rel="noopener">/testing</a>
+    </p>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section id="sobre-mi" class="section">
+    <h2 class="section__title"><span class="section__num">04</span> Sobre mí</h2>
+    <p class="about__text">
+      Soy desarrollador freelance en Buenos Aires. Diseño y construyo sitios web
+      para restaurantes y negocios locales — desde la landing hasta el testing final
+      antes de la entrega. Estoy orientando mi carrera hacia QA porque encontrar
+      lo que falla, antes que el cliente, es la parte del trabajo que más me interesa.
+    </p>
+    <div class="about__skills">
+      <div><h4>Desarrollo</h4><p>HTML · CSS · JavaScript · WordPress</p></div>
+      <div><h4>QA</h4><p>Testing manual · Test plans · Bug reports · Cross-browser</p></div>
+      <div><h4>Herramientas</h4><p>Git · GitHub · Cloudinary · Chrome DevTools</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section section--contact">
+    <h2 class="section__title"><span class="section__num">05</span> Contacto</h2>
+    <p class="contact__lead">¿Hablamos?</p>
+    <div class="contact__links">
+      <a href="mailto:facumontero01@gmail.com">facumontero01@gmail.com</a>
+      <a href="https://github.com/Facundo-Montero" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.instagram.com/fmonterostudio" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://fmonterostudio.com" target="_blank" rel="noopener">Portfolio de diseño ↗</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Facundo Montero — 2026</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
